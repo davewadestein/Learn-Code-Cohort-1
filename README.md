@@ -8,7 +8,8 @@
 #### loops practice
   * ask user how many student are in the class?
   * get a name for each student, put it in a list
-    * if the name begins with a '-', e.g., '-Tanner', that means remove it from the list, rather than add 
+    * if the name begins with a '-', e.g., '-Tanner', that means remove it from the list, rather than add
+  * stop when the name is empty
   * print out the student list, in alphabetical order
     
 
