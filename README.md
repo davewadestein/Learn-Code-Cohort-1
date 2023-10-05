@@ -8,9 +8,17 @@
 #### loops practice
 * ask user how many student are in the class?
   * get a name for each student, put it in a list
-    * if the name begins with a '-', e.g., '-Tanner', that means remove it from the list, rather than add
-  * stop when the name is empty
   * print out the student list, in alphabetical order
+
+  * do the above, and once you get it working, make some modifications to it...
+    * now make it so that each iteration, we get name from the user like we did before, but
+      * if the name begins with a '-', e.g., '-Tanner', that means remove it from the list, rather than add
+      * (if the name doesn't begin with a '-', we'll add it)
+      * ...which implies we may have more interactions with the user than there are students, e.g.,
+          * if 3 students, we might enter "Tanner", "Cristy", "-Cristy", "Christy", "Dave"
+          * therefore a for loop which we may have used initially is probably not going to work
+    * stop when the name is empty
+    * print out the student list, in alphabetical order
 * go through all the numbers from 1..100
   * for each number, print it out, followed by:
     * is it even or odd, is it divisible by 3, divisible by 5
