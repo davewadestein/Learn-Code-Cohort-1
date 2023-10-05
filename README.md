@@ -17,7 +17,7 @@
       * ...which implies we may have more interactions with the user than there are students, e.g.,
           * if 3 students, we might enter "Tanner", "Cristy", "-Cristy", "Christy", "Dave"
           * therefore a for loop which we may have used initially is probably not going to work
-    * stop when the name is empty
+    * stop when the name is empty (or 'quit')
     * print out the student list, in alphabetical order
 * go through all the numbers from 1..100
   * for each number, print it out, followed by:
